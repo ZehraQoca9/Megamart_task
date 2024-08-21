@@ -1,0 +1,65 @@
+header {
+    height: 132px;
+    
+    
+    
+    .section-msg {
+        background-color: #F5F5F5;
+        height: 42px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 100px 0px 100px;
+        
+
+        .offer {
+            display: flex;
+            gap: 10px;
+
+        }
+    }
+
+
+
+    .section-logo {
+        height: 60px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 100px 0px 100px;
+        
+
+        .logo {
+            display: flex;
+
+            h2 {
+                color: #008ECC;
+            }
+        }
+
+        .searchbar {
+            .search {
+                width: 507px;
+                padding: 18px 0;
+                background: #F3F9FB;
+                
+            }
+        }
+
+        .register {
+            width: 241px;
+            display: flex;
+    
+            gap: 10px;
+    
+            .sign-in {}
+        }
+    
+    }
+
+    
+
+    
+
+    
+}
