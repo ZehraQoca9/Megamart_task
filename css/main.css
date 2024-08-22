@@ -1,3 +1,6 @@
+
+
+
 nav {
     height: 69px;
     padding: 0px 100px 0px 100px;
@@ -92,7 +95,7 @@ nav {
     height: 350px;
     padding: 10px 100px 10px 100px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 
 
     .phone-text {
@@ -131,6 +134,8 @@ nav {
     .phone-cards {
         display: flex;
         justify-content: center;
+        margin-top: 30px;
+        
 
 
         .product-card {
@@ -144,6 +149,7 @@ nav {
                 height: 190px;
                 background-color: #EDEDED;
                 padding: 5px 20px 5px 20px;
+                border-radius: 16px;
             }
 
             img {
@@ -232,7 +238,7 @@ nav {
         display: flex;
         justify-content: center;
         gap: 40px;
-        margin-top: 20px;
+        margin-top: 30px;
 
 
         .product-card {
@@ -304,7 +310,7 @@ nav {
         justify-content: center;
         gap: 25px;
         height: 207px;
-        margin-top: 20px;
+        margin-top: 30px;
 
 
         .iphone {
@@ -312,15 +318,49 @@ nav {
             width: 389px;
             height: 207px;
             display: flex;
+            justify-content: space-between;
             border-radius: 16px;
+            padding: 20px 20px 20px 20px;
+
+
 
             .img-about {
-                height: 207px;
                 display: flex;
                 flex-direction: column;
-                
 
-                
+
+                .product-name{
+                    background-color: #494949;
+                    width: 99px;
+                    height: 35px;
+                    border-radius: 8px;
+                    padding: 9px 20px 9px 20px;
+                    /* margin: 10px 0px 0px 10px; */
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+
+                div{
+                    width: 62px;
+                    height: 62px;
+                    background-color: #fff;
+                    padding: 10px;
+                    margin: 15px 0px 15px 0px;
+                    border-radius: 10px;
+                    
+
+                    img{
+                        width: 37px;
+                        height: 46px;
+                        
+                    }
+                }
+
+                span{
+                    color: #fff;
+                    font-size: 24px;
+                    font-weight: 300;
+                }
                 
                 
             }
@@ -332,14 +372,47 @@ nav {
         }
 
         .realme {
-            background-color: #F6DE8D;
+            background-color: #FFF3CC;
             width: 389px;
             height: 207px;
             display: flex;
+            justify-content: space-between;
             border-radius: 16px;
+            padding: 20px 20px 20px 20px;
 
             .img-about {
-                height: 207px;
+                display: flex;
+                flex-direction: column;
+
+
+                .product-name{
+                    background-color: #F6DE8D;
+                    width: 99px;
+                    height: 35px;
+                    border-radius: 8px;
+                    padding: 9px 20px 9px 20px;
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+
+                div{
+                    width: 114px;
+                    height: 34px;
+                    background-color: #FFC915;
+                    margin-top: 20px;
+
+                    img{
+                        width: 90px;
+                        height: 20px;
+                    }
+                }
+
+                span{
+                    color: #000;
+                    font-size: 24px;
+                    font-weight: 300;
+                    margin-top: 20px;
+                }
             }
 
             img{
@@ -348,23 +421,157 @@ nav {
             }
         }
 
+
+
         .xiomi {
             background-color: #FFECDF;
             width: 389px;
             height: 207px;
             display: flex;
             border-radius: 16px;
+            padding: 20px 20px 20px 20px;
 
             .img-about {
-                height: 207px;
+                display: flex;
+                flex-direction: column;
+
+                .product-name{
+                    background-color: #FFD1B0;
+                    width: 99px;
+                    height: 35px;
+                    border-radius: 8px;
+                    padding: 9px 20px 9px 20px;
+                    font-size: 14px;
+                    font-weight: 400;
+
+                    img{
+                        width: 67px;
+                        height: 66px;
+                        border-radius: 10px;
+                    }
+                }
+
+                span{
+                    color: #000;
+                    font-size: 24px;
+                    font-weight: 300;
+                    margin-top: 20px;
+                }
             }
 
             img{
                 width: 152px;
-                height: 185px;
+                height: 183px;
             }
         }
 
 
     }
 }
+
+
+
+.section-essentials {
+    height: 350px;
+    padding: 10px 100px 10px 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+    .essentials-text {
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+
+
+        p {
+            color: #666666;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 30px;
+
+            span {
+                color: #008ECC;
+            }
+        }
+
+        button {
+            height: 18px;
+            border: none;
+            cursor: pointer;
+        }
+
+        
+    }
+
+    hr {
+        border: 3px solid #008ECC;
+        border-radius: 5px;
+
+    }
+
+
+    .essen-cards {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+
+
+        .product-card {
+            width: 227px;
+            height: 295px;
+            margin: 10px 5px 10px 5px;
+            border: 1px;
+            border-radius: 16px;
+
+            .img-bg {
+                width: 187px;
+                height: 187px;
+                background-color: #F5F5F5;
+                padding: 25px 0px 25px 0px;
+                border-radius: 16px;
+            }
+
+            img {
+                width: 183px;
+                height: 122px;
+            }
+
+            .product-price {
+                height: 40px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+                margin-top: 10px;
+                padding: 0px 10px 0px 10px;
+
+                .product-name
+                {
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #666666;
+                    margin-bottom: 10px;
+                }
+
+                span {
+                    /* height: 18px; */
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 20px;
+
+                   
+
+                }
+
+               
+                
+            }
+
+        }
+    }
+
+
+}
+
+
